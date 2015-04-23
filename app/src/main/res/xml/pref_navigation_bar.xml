@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/pref_header_navigation_bar"
+        android:icon="@drawable/ic_navbar">
+        <SwitchPreference
+            android:key="@string/pref_key_long_press_back"
+            android:title="@string/pref_title_long_press_back"
+            android:summary="@string/pref_summary_long_press_back"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_show_persistent_menu"
+            android:title="@string/pref_title_show_persistent_menu"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_color_navbar"
+            android:title="@string/pref_title_color_navbar"
+            android:summary="@string/pref_summary_color_navbar"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="@string/pref_key_miui_battery"
+            android:title="@string/pref_title_miui_battery"
+            android:summary="@string/pref_summary_miui_battery"
+            android:defaultValue="false"/>
+
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="@string/pref_key_miui_battery_color"
+            android:title="@string/pref_title_miui_battery_color"
+            android:defaultValue="#ffffff"
+            android:dependency="battery_bar_style"/>
+
+        <ListPreference
+            android:dependency="@string/pref_key_battery_bar_height"
+            android:key="@string/pref_key_battery_bar_height"
+            android:title="@string/pref_title_battery_bar_height"
+            android:defaultValue="2000"
+            android:entries="@array/pref_battery_bar_height"
+            android:entryValues="@array/pref_battery_bar_height"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"/>
+    </PreferenceScreen>
+</PreferenceScreen>

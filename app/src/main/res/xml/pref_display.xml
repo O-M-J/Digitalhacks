@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/pref_header_display"
+        android:icon="@drawable/ic_display">
+        <SwitchPreference
+            android:key="@string/pref_key_apm"
+            android:title="@string/pref_title_apm"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="@string/pref_key_apm_disable_bugreport"
+            android:title="@string/pref_title_apm_disable_bugreport"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_doze_enable"
+            android:title="@string/pref_title_doze_enable"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="@string/pref_key_hide_search_recents"
+            android:title="@string/pref_title_hide_search_recents"
+            android:defaultValue="true"/>
+        
+    </PreferenceScreen>
+</PreferenceScreen>

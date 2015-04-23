@@ -1,0 +1,99 @@
+<resources>
+    <!--Headers-->
+    <string name="pref_header_display">Display</string>
+    <string name="pref_header_navigation_bar">Navigation Bar</string>
+    <string name="pref_header_status_bar">Status Bar</string>
+    <string name="pref_header_inputs">Input</string>
+    <string name="dialog_color_picker">Color pick-o-matic</string>
+
+    <!--Sections-->
+    <!--Display-->
+
+    <string name="pref_key_apm">tweaks_apm</string>
+    <string name="pref_title_apm">Enable advanced power menu</string>
+    <string name="pref_key_apm_disable_bugreport">bugreport_in_power_menu</string>
+    <string name="pref_title_apm_disable_bugreport">Enable bug report in power menu</string>
+    <string name="pref_key_doze_enable">doze_enable</string>
+    <string name="pref_title_doze_enable">Enable ambient display</string>
+    <string name="pref_key_hide_search_recents">tweaks_hide_search_recents</string>
+    <string name="pref_title_hide_search_recents">Hide search bar in recents menu</string>
+
+    <!--Navbar-->
+    <string name="pref_key_long_press_back">tweaks_backkey_kill</string>
+    <string name="pref_title_long_press_back">Long press back key to kill app</string>
+    <string name="pref_summary_long_press_back">Hold the back key to kill a running program instead of closing it.</string>
+    <string name="pref_key_show_persistent_menu">tweaks_show_menu_persist</string>
+    <string name="pref_title_show_persistent_menu">Always show menu button</string>
+    <string name="pref_key_color_navbar">tweaks_navbar_color</string>
+    <string name="pref_title_color_navbar">Use status bar color for navigation bar</string>
+    <string name="pref_summary_color_navbar">This setting will make the navigation bar the same color as the status bar in apps that support it.</string>
+    <string name="pref_key_miui_battery">battery_bar_style</string>
+    <string name="pref_title_miui_battery">Enable MIUI battery bar</string>
+    <string name="pref_summary_miui_battery">Displays the battery percentage as a horizontal line across the top of the screen.</string>
+    <string name="pref_key_miui_battery_color">battery_bar_color</string>
+    <string name="pref_title_miui_battery_color">MIUI battery bar color</string>
+    <string name="pref_key_battery_bar_height">battery_bar_height</string>
+    <string name="pref_title_battery_bar_height">MIUI battery bar height</string>
+    <string name="pref_key_battery_percent">status_bar_show_battery_percent</string>
+    <string name="pref_title_battery_percent">Show battery percent</string>
+
+    <!--Statusbar-->
+    <string name="pref_key_qs_pulldown">tweaks_qs_pulldown</string>
+    <string name="pref_title_qs_pulldown">Quick settings pulldown</string>
+    <string name="pref_summary_qs_pulldown">Skip the notification panel and go immediately to quick settings</string>
+    <string name="pref_key_traffic_view">tweaks_traffic_view</string>
+    <string name="pref_title_traffic_view">Show network traffic in status bar</string>
+    <string name="pref_key_traffic_color">tweaks_traffic_color</string>
+    <string name="pref_title_traffic_color">Traffic display color</string>
+    <string name="pref_key_default_color">0xffffffff</string>
+    <!--Inputs-->
+    <string name="pref_key_knock_knock">knock_knock_sleep</string>
+    <string name="pref_title_knock_knock">Knock knock screen to sleep</string>
+    <string name="pref_key_double_tap_statusbar">knock_knock_sleep</string>
+    <string name="pref_title_double_tap_statusbar">Double tap status bar to sleep</string>
+    <string name="pref_key_volume_keyboard">tweaks_keyboard_volume_control</string>
+    <string name="pref_title_volume_keyboard">Volume keys control cursor</string>
+    <string name="pref_key_volume_screenoff">tweaks_volkey_media</string>
+    <string name="pref_title_volume_screenoff">Hold volume screen off action</string>
+    <string name="pref_key_disable_safevolume">tweaks_disable_safe_volume</string>
+    <string name="pref_title_disable_safevolume">Disable safe volume (use caution)</string>
+    <string name="hex">Hex value</string>
+    <string name="hex_hint">Hex hint</string>
+    <string name="press_color_to_apply">Tap color to apply</string>
+    <string name="arrow_right">foo</string>
+    <string-array name="pref_battery_bar_height">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="pref_battery_percent_titles">
+        <item>Stock (Disabled)</item>
+        <item>Inside</item>
+        <item>Beside</item>
+        <item>Text</item>
+        <item>Invisible</item>
+    </string-array>
+    <string-array name="pref_battery_percent_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_volume_screenoff_titles">
+        <item>No action (Disabled)</item>
+        <item>Ambient Display Wake</item>
+        <item>Seek</item>
+        <item>Skip</item>
+    </string-array>
+    <string-array name="pref_volume_screenoff_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="owner">digitalhigh</string>
+</resources>

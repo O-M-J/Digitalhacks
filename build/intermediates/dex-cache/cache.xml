@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\d8aha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\xtra\ExtraSettings-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-4e6a46e67fbce2a3c9387984105848c67125b605.jar" />
+    </item>
+    <item
+        jar="C:\xtra\ExtraSettings-master\app\build\intermediates\exploded-aar\eu.chainfire\libsuperuser\1.0.0.201503122108\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f70a6c8575dcf56ca0771280b81d90f57299f30">
+        <dex dex="C:\xtra\ExtraSettings-master\app\build\intermediates\pre-dexed\debug\classes-fad76aa212c2b441d2f83fcc98ef92ff170abd20.jar" />
+    </item>
+    <item
+        jar="C:\xtra\ExtraSettings-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\xtra\ExtraSettings-master\app\build\intermediates\pre-dexed\debug\classes-b12543b2fa44889a5256bba4e363bad51daa40f2.jar" />
+    </item>
+    <item
+        jar="C:\xtra\ExtraSettings-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\xtra\ExtraSettings-master\app\build\intermediates\pre-dexed\debug\classes-335aba77a281a71ade632e47e98bd54a73673cf3.jar" />
+    </item>
+    <item
+        jar="C:\xtra\ExtraSettings-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\xtra\ExtraSettings-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-fc3cae55949733bf27c7b86799ef9d7241ee4596.jar" />
+    </item>
+
+</items>

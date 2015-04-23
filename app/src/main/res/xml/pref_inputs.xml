@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/pref_header_inputs"
+        android:icon="@drawable/ic_music">
+        <SwitchPreference
+            android:key="@string/pref_key_knock_knock"
+            android:title="@string/pref_title_knock_knock"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_double_tap_statusbar"
+            android:title="@string/pref_title_double_tap_statusbar"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_volume_keyboard"
+            android:title="@string/pref_title_volume_keyboard"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="@string/pref_key_disable_safevolume"
+            android:title="@string/pref_title_disable_safevolume"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="@string/pref_key_volume_screenoff"
+            android:title="@string/pref_title_volume_screenoff"
+            android:defaultValue="3000"
+            android:entries="@array/pref_volume_screenoff_titles"
+            android:entryValues="@array/pref_volume_screenoff_values"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"/>
+    </PreferenceScreen>
+</PreferenceScreen>

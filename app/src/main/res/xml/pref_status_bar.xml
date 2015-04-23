@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/pref_header_status_bar"
+        android:icon="@drawable/ic_statusbar_fancy">
+        <ListPreference
+            android:key="@string/pref_key_battery_percent"
+            android:title="@string/pref_title_battery_percent"
+            android:defaultValue="0"
+            android:entries="@array/pref_battery_percent_titles"
+            android:entryValues="@array/pref_battery_percent_values"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"/>
+        <SwitchPreference
+            android:key="@string/pref_key_qs_pulldown"
+            android:title="@string/pref_title_qs_pulldown"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/pref_key_traffic_view"
+            android:title="@string/pref_title_traffic_view"
+            android:defaultValue="true"/>
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="@string/pref_key_traffic_color"
+            android:title="@string/pref_title_traffic_color"
+            android:defaultValue="0xffffffff"
+            android:dependency="tweaks_traffic_view"/>
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarPreference">
+        <attr name="interval" format="integer" />
+        <attr name="unitsLeft" format="string" />
+        <attr name="unitsRight" format="string" />
+        <attr name="maximum" format="integer" />
+        <attr name="minimum" format="integer" />
+        <attr name="min" format="float" />
+    </declare-styleable>
+</resources>
