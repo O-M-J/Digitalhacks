@@ -199,9 +199,21 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference.getKey().matches(getString(R.string.pref_key_traffic_color))) {
+                        String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
+                                        .valueOf(newValue)));
+                        int intHex = ColorPickerPreference.convertToColorInt(hex);
+                        String hexColor = "#" + Integer.toHexString(intHex).substring(2);
+                        Settings.System.putString(getContentResolver(),
+                                getString(R.string.pref_key_traffic_color), hexColor);
                         return true;
         }
         if (preference.getKey().matches(getString(R.string.pref_key_miui_battery_color))) {
+            String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
+                    .valueOf(newValue)));
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            String hexColor = "#" + Integer.toHexString(intHex).substring(2);
+            Settings.System.putString(getContentResolver(),
+                    getString(R.string.pref_key_miui_battery_color), hexColor);
             return true;
         }
                 return false;
